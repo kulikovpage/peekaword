@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Peekaword — Help</title>
+<link rel="icon" href="favicon.png">
+<style>
+:root{--bg:#F4F7F1;--card:#FFFFFF;--text:#1C1D2B;--muted:#5E6170;--accent:#4D52B4;--accent2:#4E9CE8;--line:#E2E6DC;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#121320;--card:#1D1F30;--text:#ECEDF5;--muted:#A3A6B8;--accent:#8E93F0;--accent2:#6FB2F0;--line:#2C2F45;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.55 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+.wrap{max-width:720px;margin:0 auto;padding:32px 16px 48px}
+header{display:flex;gap:16px;align-items:center;margin-bottom:20px}
+header img{width:72px;height:72px;border-radius:17px;box-shadow:0 6px 20px rgba(77,82,180,.25)}
+header h1{margin:0;font-size:26px;line-height:1.2}
+header p{margin:2px 0 0;color:var(--muted)}
+nav.langs{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px}
+nav.langs a{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--text);text-decoration:none;font-size:15px}
+nav.langs a.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.lang{display:none}
+#lang-en{display:block}
+h2{font-size:22px;margin:0 0 4px}
+.date{color:var(--muted);margin:0 0 16px;font-size:15px}
+section.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px 18px;margin:0 0 12px}
+section.card h3{margin:0 0 6px;font-size:17px}
+section.card p{margin:0 0 8px}
+section.card p:last-child{margin:0}
+a{color:var(--accent)}
+footer{margin-top:28px;color:var(--muted);font-size:15px;display:flex;gap:16px;flex-wrap:wrap}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><img src="icon.png" alt=""><div><h1>Peekaword</h1><p>Vocabulary Widget</p></div></header>
+<nav class="langs"><a href="#en">English</a><a href="#uk">Українська</a><a href="#ru">Русский</a><a href="#pl">Polski</a><a href="#es">Español</a><a href="#fr">Français</a><a href="#pt">Português</a></nav>
+<main>
+<div class="lang" id="lang-en" lang="en"><h2 data-title="Peekaword — Help">A new word on your Lock Screen</h2><p class="date">Help</p><section class="card"><h3>Add the widget</h3><p><b>Lock Screen:</b> touch and hold the Lock Screen → Customise → Lock Screen → tap below the clock → Peekaword.</p><p><b>Home Screen:</b> touch and hold an empty spot → + or Edit → Add Widget → Peekaword.</p><p>The app shows the same steps as a video: Settings → How to add the widget.</p></section><section class="card"><h3>Reminders</h3><p>Settings → Reminders: turn them on and pick a time. At most one a day, and only when there is a reason.</p></section><section class="card"><h3>Subscription</h3><p>Optional: all learning is free and has no ads.</p><p>Manage or cancel: iOS Settings → your name → Subscriptions. After reinstalling: Settings → Support the project → Restore purchases.</p></section><section class="card"><h3>Contact</h3><p>Found a bug or a wrong translation? <a href="https://github.com/kulikovpage/peekaword/issues">Open an issue on GitHub</a>.</p></section><p><a href="privacy/#en">Privacy Policy</a></p></div>
+<div class="lang" id="lang-uk" lang="uk"><h2 data-title="Peekaword — Допомога">Нове слово на екрані блокування</h2><p class="date">Допомога</p><section class="card"><h3>Додати віджет</h3><p><b>Екран блокування:</b> затисни екран блокування → «Налаштувати» → «Екран блокування» → торкнись під годинником → Peekaword.</p><p><b>Робочий стіл:</b> затисни порожнє місце → «+» або «Редагувати» → «Додати віджет» → Peekaword.</p><p>У застосунку ці кроки є у відео: Налаштування → «Як додати віджет».</p></section><section class="card"><h3>Нагадування</h3><p>Налаштування → «Нагадування»: увімкни й обери час. Не більше одного на день і лише коли є привід.</p></section><section class="card"><h3>Підписка</h3><p>Необов'язкова: усе навчання безкоштовне й без реклами.</p><p>Керувати чи скасувати: Параметри iOS → твоє ім'я → Підписки. Після перевстановлення: Налаштування → «Підтримати проєкт» → «Відновити покупки».</p></section><section class="card"><h3>Зв'язок</h3><p>Знайшов помилку чи неточний переклад? <a href="https://github.com/kulikovpage/peekaword/issues">Напиши на GitHub</a>.</p></section><p><a href="privacy/#uk">Політика конфіденційності</a></p></div>
+<div class="lang" id="lang-ru" lang="ru"><h2 data-title="Peekaword — Помощь">Новое слово на экране блокировки</h2><p class="date">Помощь</p><section class="card"><h3>Добавить виджет</h3><p><b>Экран блокировки:</b> зажми экран блокировки → «Настроить» → «Экран блокировки» → нажми под часами → Peekaword.</p><p><b>Рабочий стол:</b> зажми пустое место → «+» или «Править» → «Добавить виджет» → Peekaword.</p><p>В приложении эти шаги есть в видео: Настройки → «Как добавить виджет».</p></section><section class="card"><h3>Напоминания</h3><p>Настройки → «Напоминания»: включи и выбери время. Не больше одного в день и только по делу.</p></section><section class="card"><h3>Подписка</h3><p>Необязательная: вся учёба бесплатна и без рекламы.</p><p>Управлять или отменить: Настройки iOS → твоё имя → Подписки. После переустановки: Настройки → «Поддержать проект» → «Восстановить покупки».</p></section><section class="card"><h3>Связь</h3><p>Нашёл ошибку или неточный перевод? <a href="https://github.com/kulikovpage/peekaword/issues">Напиши на GitHub</a>.</p></section><p><a href="privacy/#ru">Политика конфиденциальности</a></p></div>
+<div class="lang" id="lang-pl" lang="pl"><h2 data-title="Peekaword — Pomoc">Nowe słowo na ekranie blokady</h2><p class="date">Pomoc</p><section class="card"><h3>Dodaj widżet</h3><p><b>Ekran blokady:</b> przytrzymaj ekran blokady → „Dostosuj” → „Ekran blokady” → stuknij pod zegarem → Peekaword.</p><p><b>Ekran początkowy:</b> przytrzymaj puste miejsce → + lub „Edycja” → „Dodaj widżet” → Peekaword.</p><p>W aplikacji te kroki są na filmie: Ustawienia → „Jak dodać widżet”.</p></section><section class="card"><h3>Przypomnienia</h3><p>Ustawienia → „Przypomnienia”: włącz i wybierz godzinę. Najwyżej jedno dziennie i tylko z powodu.</p></section><section class="card"><h3>Subskrypcja</h3><p>Opcjonalna: cała nauka jest darmowa i bez reklam.</p><p>Zarządzanie i anulowanie: Ustawienia iOS → Twoje imię → Subskrypcje. Po ponownej instalacji: Ustawienia → „Wesprzyj projekt” → „Przywróć zakupy”.</p></section><section class="card"><h3>Kontakt</h3><p>Znalazłeś błąd albo nietrafione tłumaczenie? <a href="https://github.com/kulikovpage/peekaword/issues">Napisz na GitHubie</a>.</p></section><p><a href="privacy/#pl">Polityka prywatności</a></p></div>
+<div class="lang" id="lang-es" lang="es"><h2 data-title="Peekaword — Ayuda">Una palabra nueva en tu pantalla bloqueada</h2><p class="date">Ayuda</p><section class="card"><h3>Añadir el widget</h3><p><b>Pantalla bloqueada:</b> mantén pulsada la pantalla bloqueada → Personalizar → Pantalla bloqueada → toca bajo la hora → Peekaword.</p><p><b>Pantalla de inicio:</b> mantén pulsado un espacio vacío → + o Editar → Añadir widget → Peekaword.</p><p>En la app estos pasos están en vídeo: Ajustes → Cómo añadir el widget.</p></section><section class="card"><h3>Recordatorios</h3><p>Ajustes → Recordatorios: actívalos y elige la hora. Como mucho uno al día y solo si hay motivo.</p></section><section class="card"><h3>Suscripción</h3><p>Opcional: todo el aprendizaje es gratis y sin anuncios.</p><p>Gestionar o cancelar: Ajustes de iOS → tu nombre → Suscripciones. Tras reinstalar: Ajustes → Apoya el proyecto → Restaurar compras.</p></section><section class="card"><h3>Contacto</h3><p>¿Encontraste un error o una traducción imprecisa? <a href="https://github.com/kulikovpage/peekaword/issues">Escríbenos en GitHub</a>.</p></section><p><a href="privacy/#es">Política de privacidad</a></p></div>
+<div class="lang" id="lang-fr" lang="fr"><h2 data-title="Peekaword — Aide">Un nouveau mot sur votre écran verrouillé</h2><p class="date">Aide</p><section class="card"><h3>Ajouter le widget</h3><p><b>Écran verrouillé :</b> maintenez le doigt sur l'écran verrouillé → Personnaliser → Écran verrouillé → touchez sous l'heure → Peekaword.</p><p><b>Écran d'accueil :</b> maintenez le doigt sur un espace vide → + ou Modifier → Ajouter un widget → Peekaword.</p><p>Dans l'app, ces étapes sont en vidéo : Réglages → Ajouter le widget.</p></section><section class="card"><h3>Rappels</h3><p>Réglages → Rappels : activez-les et choisissez l'heure. Au plus un par jour, et seulement s'il y a une raison.</p></section><section class="card"><h3>Abonnement</h3><p>Facultatif : tout l'apprentissage est gratuit et sans publicité.</p><p>Gérer ou annuler : Réglages d'iOS → votre nom → Abonnements. Après réinstallation : Réglages → Soutenir le projet → Restaurer les achats.</p></section><section class="card"><h3>Contact</h3><p>Un bug ou une traduction inexacte ? <a href="https://github.com/kulikovpage/peekaword/issues">Écrivez-nous sur GitHub</a>.</p></section><p><a href="privacy/#fr">Politique de confidentialité</a></p></div>
+<div class="lang" id="lang-pt" lang="pt"><h2 data-title="Peekaword — Ajuda">Uma palavra nova na sua Tela Bloqueada</h2><p class="date">Ajuda</p><section class="card"><h3>Adicionar o widget</h3><p><b>Tela Bloqueada:</b> toque e segure a Tela Bloqueada → Personalizar → Tela Bloqueada → toque abaixo do relógio → Peekaword.</p><p><b>Tela de Início:</b> toque e segure um espaço vazio → + ou Editar → Adicionar Widget → Peekaword.</p><p>No app esses passos estão em vídeo: Ajustes → Como adicionar o widget.</p></section><section class="card"><h3>Lembretes</h3><p>Ajustes → Lembretes: ative e escolha o horário. No máximo um por dia e só quando há motivo.</p></section><section class="card"><h3>Assinatura</h3><p>Opcional: todo o aprendizado é gratuito e sem anúncios.</p><p>Gerenciar ou cancelar: Ajustes do iOS → seu nome → Assinaturas. Depois de reinstalar: Ajustes → Apoie o projeto → Restaurar compras.</p></section><section class="card"><h3>Contato</h3><p>Achou um erro ou uma tradução imprecisa? <a href="https://github.com/kulikovpage/peekaword/issues">Escreva no GitHub</a>.</p></section><p><a href="privacy/#pt">Política de privacidade</a></p></div>
+</main>
+<footer><a href="privacy/">Privacy Policy</a><span>© 2026 Peekaword</span></footer>
+</div>
+<script>
+(function(){var codes=['en', 'uk', 'ru', 'pl', 'es', 'fr', 'pt'];function pick(){var h=location.hash.slice(1);if(codes.indexOf(h)<0){var l=(navigator.languages||[navigator.language||'en']);
+for(var i=0;i<l.length;i++){var c=(l[i]||'').slice(0,2).toLowerCase();if(codes.indexOf(c)>=0){h=c;break}}if(codes.indexOf(h)<0)h='en';
+history.replaceState(null,'','#'+h)}document.querySelectorAll('nav.langs a').forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+h)});
+document.querySelectorAll('.lang').forEach(function(s){s.style.display=s.id==='lang-'+h?'block':'none'});var t=document.querySelector('#lang-'+h+' [data-title]');
+if(t)document.title=t.getAttribute('data-title')}pick();addEventListener('hashchange',pick)})();
+</script>
+</body>
+</html>
